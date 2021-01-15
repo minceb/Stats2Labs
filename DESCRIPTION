@@ -1,0 +1,18 @@
+Package: Stats2Labs
+Type: Package
+Title: Stats2Labs datasets for Statistical Modeling
+Version: 0.1.0
+Author: Bowen Mince and Shonda Kuiper
+Maintainer: The package maintainer <mincebow@grinnell.edu>
+Description: This package contains all the datasets for Intro to Data Science and Statistical Modeling for Grinnell College. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Depends: 
+    R (>= 2.10)
