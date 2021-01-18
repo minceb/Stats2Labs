@@ -283,10 +283,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Weights
-#' @usage Weights
+#' @name C2Weights
+#' @usage C2Weights
 #' @format A data frame with 30 rows and six columns (species, bodyweight, brainweight, maximumlifespan, gestationtime, and totalsleep).
-"Weights"
+"C2Weights"
 
 #' Chapter 2 Winglength1
 #'

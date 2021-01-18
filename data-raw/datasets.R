@@ -23,9 +23,8 @@ Twins <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Twins.csv")
 C1Variable_Descriptions <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Variable Descriptions.csv")
 Car1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Car1.csv")
 
-
-usethis::use_data(Age, Birdnest, ChiSq, Mice, Music, MedSalaries, NLBB_Salaries, Car1, Twins, SameMean,
-                  overwrite = TRUE)
+Weights <- ("Please type ?Weights for more information")
+usethis::use_data(Age, Birdnest, ChiSq, Mice, Music, MedSalaries, NLBB_Salaries, Car1, Twins, SameMean, Weights, overwrite = TRUE)
 
 #Chapter 2
 
@@ -43,34 +42,35 @@ Skinfold = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Skinfold.csv")
 Tires_Alternative = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Tires-alternative.csv")
 Tires = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Tires.csv")
 Variable_Descriptions = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Variable Descriptions.csv")
-Weights = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Weights.csv")
+C2Weights = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Weights.csv")
 Winglength1 = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Winglength1.csv")
 Winglength2 = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Winglength2.csv")
 
 usethis::use_data(Emission, Games1, Games2, Hodgkins_Alternative, Hodgkins, Jury_Alternative, Jury, Normal,
-                  PaperTowel, RegrTrans, Skinfold, Tires_Alternative, Tires, Variable_Descriptions, Weights,
+                  PaperTowel, RegrTrans, Skinfold, Tires_Alternative, Tires, Variable_Descriptions, C2Weights,
                   Winglength1, Winglength2, overwrite = TRUE)
 
 
 #Chapter 3
-`4_8Cyl` <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 4_8Cyl.csv")
-`2008Movies_Cleaned` <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 2008Movies Cleaned.csv")
+`4-8Cyl` <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 4_8Cyl.csv")
+`2008MoviesCleaned` <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 2008Movies Cleaned.csv")
 `2008Movies` <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 2008Movies.csv")
 Aids <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Aids.csv")
 Arsenic <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Arsenic.csv")
 Cars <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Cars.csv")
 Cars <- select(Cars, 1:12)
 Caucuses <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Caucuses.csv")
-Cavelier <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Cavalier.csv")
+Cavalier <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Cavalier.csv")
 MPG <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 MPG.csv")
 Politics <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Politics.csv")
 C3Variable_Descriptions <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Variable Descriptions.csv")
-Weights <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Weights.csv")
+C3Weights <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Weights.csv")
 Worldbank <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Worldbank.csv")
-Worldbank_variable_names <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Worldbank-variable names.csv")
-
-usethis::use_data(Cars,
+Worldbankvariable_names <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Worldbank-variable names.csv")
+names(C3Weights) <- c("Species", "Bodyweight", "Brainweight")
+usethis::use_data(Cars, Cavalier, `4-8Cyl`, MPG, C3Weights, Arsenic,
                   overwrite = TRUE)
 
 
 
+str(Arsenic)
