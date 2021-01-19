@@ -270,10 +270,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Variable_Descriptions
-#' @usage Variable_Descriptions
+#' @name Variable_DescriptionsC2
+#' @usage Variable_DescriptionsC2
 #' @format A data frame with 35 rows and four columns (Chapter, Data.Set, Variable.Name, and Description).
-"Variable_Descriptions"
+"Variable_DescriptionsC2"
 
 #' Chapter 2 Weights
 #'
@@ -283,10 +283,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name C2Weights
-#' @usage C2Weights
+#' @name WeightsC2
+#' @usage WeightsC2
 #' @format A data frame with 30 rows and six columns (species, bodyweight, brainweight, maximumlifespan, gestationtime, and totalsleep).
-"C2Weights"
+"WeightsC2"
 
 #' Chapter 2 Winglength1
 #'

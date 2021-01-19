@@ -11,6 +11,6 @@ An object of class \code{character} of length 1.
 Weights
 }
 \description{
-There are two Weights datasets in the textbook. Please type in either C2Weights or C3Weights to view the correct dataset
+There are two Weights datasets in the textbook. Please type in either WeightsC2 or WeightsC3 to view the correct dataset
 }
 \keyword{datasets}

@@ -214,3 +214,13 @@
 #' @format A dataset with 15 rows and 4 columns
 "Twins"
 
+#' An index of the Chapter 1 Data included in this package.
+#'
+#'
+#' @docType data
+#' @keywords datasets
+#' @name Variable_DescriptionsC1
+#' @usage Variable_DescriptionsC1
+#' @format A data frame with 47 rows and four columns (Chapter, Data.Set, Variable.Name, and Description).
+"Variable_DescriptionsC1"
+
