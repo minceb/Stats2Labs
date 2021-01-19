@@ -95,12 +95,12 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name C3Weights
-#' @usage C3Weights
+#' @name WeightsC3
+#' @usage WeightsC3
 #' @format A data frame with 62 rows and 3 Columns
 #' @source T. Allison and D. Cicchetti, “Sleep in Mammals: Ecological and Constitutional Correlates,” Science, 194 (Nov. 12,
 #' 1976): 732–734.
-"C3Weights"
+"WeightsC3"
 
 #' Chapter 3 Arsenic Data
 #'
@@ -120,6 +120,74 @@
 #' @format A data frame with 21 rows and 6 Columns
 #' @source M. Karagas, J. Morris, J. Weiss, V. Spate, C. Baskett, and E. Greenberg, “Toenail Samples as an Indicator of Drinking Water Arsenic Exposure,” Cancer Epidemiology, Biomarkers and Prevention, 5 (1996): 849–852
 "Arsenic"
+
+
+#' Chapter 3 AIDS Data
+#'
+#' The AIDS data set shows the prevalence of HIV/AIDS in adults aged 15 to 49 in least developed
+#' countries along with country-level data on several socioeconomic factors. Use this data set to create a
+#' multivariate regression model to predict the prevalence of HIV/AIDS from socioeconomic factors.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name AIDS
+#' @usage AIDS
+#' @format A data frame with 41 rows and 4 columns
+"AIDS"
+
+#' Chapter 3 Politics Data
+#'
+#'
+#'  In 2001, several college students collected data from 50 states on each of these factors from the U.S. Census Bureau.
+#'
+#'
+#'@docType data
+#'@keywords datasets
+#'@name Politics
+#'@usage Politics
+#'@format A data frame with 50 rows and 3 column (Column names are not conventional)
+"Politics"
+
+#' Chapter 3 Caucuses Data
+#'
+#'
+#' The Caucuses data set contains the 2008 Democratic and Republican caucus results. Republicans
+#' count actual votes. Democrats don’t record individual votes, but each precinct allocates its delegates
+#' based on the number of people in the precinct supporting each candidate during the caucus. Senator
+#' Clinton was expected to win in most polls, but ended up a surprising third after Senators Obama and
+#' Edwards. Many political analysts have found that females, less educated people, and older people
+#' voted for Senator Clinton, while younger people, more educated people, and African Americans preferred Senator Obama.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name Caucuses
+#' @usage Caucuses
+#' @format A data frame with 99 rows and 11 columns
+"Caucuses"
+
+#' Chapter 3 2008Movies
+#'
+#'  The 2008Movies file contains data on movies released in 2008
+#'
+#' @docType data
+#' @keywords datasets
+#' @name `2008Movies`
+#' @usage `2008Movies`
+#' @format A data frame with 199 rows and 12 columns
+"2008Movies"
+
+
+#' Chapter 3 Variable_Descriptions
+#'
+#' An index of the Chapter 2 Data included in this package.
+#'
+#'
+#' @docType data
+#' @keywords datasets
+#' @name Variable_DescriptionsC3
+#' @usage Variable_DescriptionsC3
+#' @format A data frame with 96 rows and four columns (Chapter, Data.Set, Variable.Name, and Description).
+"Variable_DescriptionsC3"
 
 
 
