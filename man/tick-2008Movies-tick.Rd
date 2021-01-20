@@ -4,7 +4,7 @@
 \name{`2008Movies`}
 \alias{`2008Movies`}
 \alias{2008Movies}
-\title{Chapter 3 2008Movies}
+\title{Chapter 3 2008Movies Data}
 \format{
 A data frame with 199 rows and 12 columns
 }

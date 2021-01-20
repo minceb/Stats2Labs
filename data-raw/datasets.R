@@ -74,3 +74,25 @@ usethis::use_data(Cars, Cavalier, `4-8Cyl`, MPG, WeightsC3, Arsenic, AIDS, Polit
 
 
 
+
+#Chapter 5
+Colors <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Colors.csv")
+Colors2 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Colors2.csv")
+Cookies <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Cookies.csv")
+Cookies2 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Cookies2.csv")
+Corn <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Corn.csv")
+Flower <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Flower.csv")
+Football <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Football.csv")
+Handwash <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Handwash.csv")
+Memorathan1sampledata <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Memorathan1 sample data.csv")
+Memorathan2sampledata <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Memorathan2 sample data.csv")
+Memory <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Memory.csv")
+MusicC5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Music.csv")
+Popcorn <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Popcorn.csv")
+Tennis <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Tennis.csv")
+Variable_DescriptionsC5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Variable Descriptions.csv")
+usethis::use_data(Memory, Flower, Popcorn, Handwash, Tennis, MusicC5, overwrite = T)
+
+
+
+str(Memory)

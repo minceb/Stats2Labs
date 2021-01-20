@@ -165,7 +165,7 @@
 #' @format A data frame with 99 rows and 11 columns
 "Caucuses"
 
-#' Chapter 3 2008Movies
+#' Chapter 3 2008Movies Data
 #'
 #'  The 2008Movies file contains data on movies released in 2008
 #'
