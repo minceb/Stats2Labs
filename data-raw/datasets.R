@@ -16,7 +16,7 @@ Faculty <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Faculty.csv")
 Groundwater_not.used <- read_csv("C:/Users/Bowen/Desktop/DataSets/C1 Groundwater-not used.csv")
 MedSalaries <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 MedSalaries.csv", header = FALSE)
 Mice <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Mice.csv")
-Music <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Music.csv")
+MusicC1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Music.csv")
 NLBB_Salaries <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 NLBB Salaries.csv")
 SameMean <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 SameMean.csv")
 Twins <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Twins.csv")
@@ -24,7 +24,7 @@ Variable_DescriptionsC1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Variable
 Car1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Car1.csv")
 
 Weights <- ("Please type ?Weights for more information")
-usethis::use_data(Age, Birdnest, ChiSq, Mice, Music, MedSalaries, NLBB_Salaries, Car1, Twins, SameMean, Weights,
+usethis::use_data(Age, Birdnest, ChiSq, Mice, MusicC1, MedSalaries, NLBB_Salaries, Car1, Twins, SameMean, Weights,
                   Variable_DescriptionsC1, overwrite = TRUE)
 
 #Chapter 2
@@ -90,9 +90,10 @@ Memory <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Memory.csv")
 MusicC5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Music.csv")
 Popcorn <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Popcorn.csv")
 Tennis <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Tennis.csv")
-Variable_DescriptionsC5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Variable Descriptions.csv")
-usethis::use_data(Memory, Flower, Popcorn, Handwash, Tennis, MusicC5, overwrite = T)
+VariableDescriptionsC5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Variable Descriptions.csv")
+Music <- "Please type ?Music for more info or specify which chapter the dataset is from"
+usethis::use_data(Memory, Flower, Popcorn, Handwash, Tennis, MusicC5, Cookies, Corn, Cookies2, Football, Colors,
+                  Colors2, VariableDescriptionsC5, Music, overwrite = T)
 
 
 
-str(Memory)

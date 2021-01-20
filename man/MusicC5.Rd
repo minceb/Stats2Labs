@@ -25,4 +25,4 @@ Forty undergraduate students consented to be in the study. Each subject took fou
 the website typingtest.com in random order based on two coin flips: 1 min/Yesterday, 1 min/Stayin’ Alive, 3 min/Yesterday, and 3 min/Stayin’ Alive. The questions the researcher wanted to test were
 the effect of Song, Length, and Song*Length on words per minute (WPM)
 }
-\keyword{datsets}
+\keyword{datasets}

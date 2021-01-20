@@ -19,4 +19,4 @@ analyze the memory experiment data. Instead of attempting to calculate the sampl
 is conducted, this text focuses on using the model assumptions and analysis (discussed in Chapters 2 and 4)
 to determine if the study is reliable. See chapter 5 for more info.
 }
-\keyword{datsets}
+\keyword{datasets}

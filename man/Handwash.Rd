@@ -22,4 +22,4 @@ Swabs were then placed into a microfuge tube with 500 mL of saline and swirled f
 off bacteria. Then the researchers vortexed the microfuge tube for 20 seconds and pipetted 100 mL of bacterial solution onto an L-agar plate. Plates were then put in an incubator at 30°C for 72 hours. Colony-forming
 units (CFUs) were then counted on each plate.
 }
-\keyword{datsets}
+\keyword{datasets}

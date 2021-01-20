@@ -148,10 +148,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Music
-#' @usage Music
+#' @name MusicC1
+#' @usage MusicC1
 #' @format A data frame with 7 columns and 28 rows
-"Music"
+"MusicC1"
 
 #' Chapter 1 NLBB Salaries
 #'

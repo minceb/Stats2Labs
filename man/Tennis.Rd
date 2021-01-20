@@ -14,15 +14,13 @@ Rob Bower and Rod Cross, “String Tension Effects on Tennis Ball Rebound Speed 
 Tennis
 }
 \description{
-With the H1N1 outbreak in 2010, hand washing was well promoted as one of the most effective and
-economical methods for preventing the spread of infectious diseases. For a final project, two statistics students
-were interested in comparing the effectiveness of three hand-washing soaps (62\% ethyl-alcohol-based hand
-Sanitizer, 0.15\% tricolsan antibacterial soap, and a soap lacking antimicrobial agents).
-These researchers used sterile swabs to swab each participant’s right hand before washing, first going
-around the fingers and then making an S-shape on the palm. The right hand was swabbed again after subjects
-washed their hands with one of the cleansers for 20 seconds and let their hands air dry for 3 minutes.
-Swabs were then placed into a microfuge tube with 500 mL of saline and swirled for 30 seconds to knock
-off bacteria. Then the researchers vortexed the microfuge tube for 20 seconds and pipetted 100 mL of bacterial solution onto an L-agar plate. Plates were then put in an incubator at 30°C for 72 hours. Colony-forming
-units (CFUs) were then counted on each plate.
+Students on the college tennis team were interested in knowing if string tension affected the speed
+and accuracy of a tennis ball. They had recently read an article in the Journal of Sports Sciences
+and decided conduct a similar study for themselves.6
+After warming up, five men’s varsity tennis
+players volunteered to hit 30 serves using three different racquet tensions over three days. Day was
+not treated as a factor of interest in the study, but used to avoid fatigue in the players. For each serve,
+players aimed at a target in the back center of the service box, and accuracy was measured as the
+distance in inches from the center of the box to the ball strike location. A radar gun was used to measure the velocity of each player’s serve.
 }
-\keyword{datsets}
+\keyword{datasets}

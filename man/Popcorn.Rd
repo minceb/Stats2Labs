@@ -18,4 +18,4 @@ Two bags were randomly selected from each box and stored for one week, one in th
 the other at room temperature (Room). The bags were popped in random order according to the instructions
 on the box, and the percentage of popped kernels was calculated for each bag.
 }
-\keyword{datsets}
+\keyword{datasets}
