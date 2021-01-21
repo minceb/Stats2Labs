@@ -12,7 +12,7 @@
 #' @name Shuttle
 #' @usage Shuttle
 #' @format A data frame with 23 rows and 4 columns
-
+"Shuttle"
 
 #' Chapter 7 Cancer2 data
 #'
@@ -26,6 +26,7 @@
 #' @name Cancer2
 #' @usage Cancer2
 #' @format A data frame with 569 observations with 3 columns
+"Cancer2"
 
 #' Chapter 7 Table 7.3 data
 #'
@@ -38,5 +39,4 @@
 #' @name Table7.3
 #' @usage Table7.3
 #' @format A table with 5 rows and 5 columns
-#'
-#'
+"Table7.3"

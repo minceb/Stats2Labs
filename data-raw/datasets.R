@@ -95,5 +95,35 @@ Music <- "Please type ?Music for more info or specify which chapter the dataset 
 usethis::use_data(Memory, Flower, Popcorn, Handwash, Tennis, MusicC5, Cookies, Corn, Cookies2, Football, Colors,
                   Colors2, VariableDescriptionsC5, Music, overwrite = T)
 
+#Chapter 6
+
+
+#Chapter 7
+
+BirdKeeping <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 BirdKeeping.csv")
+BirdnestC7 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Birdnest.csv")
+Burns <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Burns.csv")
+Burns-alternative <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Burns-alternative.csv")
+Cancer2 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Cancer2.csv")
+Cancercells <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Cancercells.csv")
+Cancercells-table <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Cancercells-table.csv")
+Convict <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Convict.csv")
+Donner <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Donner.csv")
+Donnerdetails <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Donner_details.csv")
+IYSdata <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 IYSdata.csv")
+Oscars <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Oscars.csv")
+Oscars2 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Oscars2.csv")
+Question5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Question 5.csv")
+Shuttle <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Shuttle.csv")
+SIRDS <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 SIRDS.csv")
+Table7.3 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Table7.3.csv")
+Tatoos <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Tatoos.csv")
+VariableDescriptionsC7 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Variable Descriptions.csv")
+usethis::use_data(Shuttle, Cancer2, Table7.3, overwrite = T)
+
+
+
+
+
 
 
