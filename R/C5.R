@@ -218,11 +218,11 @@
 
 #' Chapter 5 Colors2 data
 #'
-#' The design in Exercise 11 is sometimes called a split-plot/repeated measures (SP/RM) [1,2], where
+#' The design in Exercise 11 is sometimes called a split-plot/repeated measures (SP/RM), where
 #' the 1 represents the number of whole-plot factors and the 2 represents the number of split-plot
 #' factors.
 #' In fact, the previous exercise provides only half of the data. In addition to the 16 females discussed
-#' in Exercise 11, 16 males were also tested. The complete design is a split-plot/repeated measures (SP/RM) [2,2], with both gender and division as whole-plot factors.
+#' in Exercise 11, 16 males were also tested. The complete design is a split-plot/repeated measures (SP/RM), with both gender and division as whole-plot factors.
 #'
 #' @docType data
 #' @keywords datasets
