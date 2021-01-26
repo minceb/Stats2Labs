@@ -123,7 +123,7 @@ usethis::use_data(Shuttle, Cancer2, Table7.3, Cancercells, Donner, Convict, SIRD
 
 
 
-#Chapter 9
+# Chapter 9
 Firstdrink <- read.csv("C:/Users/Bowen/Desktop/DataSets/C9 Firstdrink.csv")
 Fruitfly <- read.csv("C:/Users/Bowen/Desktop/DataSets/C9 Fruitfly.csv")
 Graduate <- read.csv("C:/Users/Bowen/Desktop/DataSets/C9 Graduate.csv")
@@ -136,3 +136,8 @@ Veteran <- read.csv("C:/Users/Bowen/Desktop/DataSets/C9 Veteran.csv")
 VariableDescriptionsC9 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C9 Variable Descriptions.csv")
 usethis::use_data(MeltingChipsJS, Table9.2, Firstdrink, Graduate, Rearrest, Fruitfly, Veteran, Hornhonk,
                   VariableDescriptionsC9, overwrite = T)
+# Chapter 11
+
+MMs <- read.csv("C:/Users/Bowen/Desktop/DataSets/C11 MMs.csv")
+VariableDescriptionsC11 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C11 Variable Descriptions.csv")
+usethis::use_data(MMs, VariableDescriptionsC11, overwrite = T)
