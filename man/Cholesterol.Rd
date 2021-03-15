@@ -6,23 +6,11 @@
 \title{Chapter 4 Cholesterol}
 \format{
 A data frame with 72 rows and five columns (Patient, Exercise, Diet, Drug, and Cholesterol)
-
-A data frame with 72 rows and five columns (Patient, Exercise, Diet, Drug, and Cholesterol)
 }
 \usage{
 Cholesterol
-
-Cholesterol
 }
 \description{
-Cholesterol is a waxy substance found in blood and cell membranes. All animals need some cholesterol
-in their system; however, too much cholesterol can cause heart attacks and strokes. A study was
-conducted to determine how exercise, diet, and three types of drugs impact cholesterol levels.
-Seventy-two patients at a nearby hospital who had been diagnosed with high cholesterol (a level greater
-than 240 milligrams per deciliter) consented to be in the study. Each of the 72 patients was randomly
-assigned to a specific treatment, and after six months the patients’ cholesterol levels were measured
-again. These measurements are provided in the Cholesterol data set.
-
 Cholesterol is a waxy substance found in blood and cell membranes. All animals need some cholesterol
 in their system; however, too much cholesterol can cause heart attacks and strokes. A study was
 conducted to determine how exercise, diet, and three types of drugs impact cholesterol levels.
