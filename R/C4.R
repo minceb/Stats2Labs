@@ -90,17 +90,17 @@
 "Cholesterol"
 
 
-#' Chapter 4 Games2C4
+#' Chapter 4 Games2
 #'
 #' The data set Games2 shows a column Type2 with four types of games based on distracter and
 #' which hand was used.
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Games2C4
-#' @usage Games2C4
+#' @name Games2
+#' @usage Games2
 #' @format A data frame with 40 rows and six columns
-"Games2C4"
+"Games2"
 
 
 #' Chapter 4 MemoryA
@@ -198,10 +198,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Popcorn
-#' @usage Popcorn
+#' @name PopcornC4
+#' @usage PopcornC4
 #' @format A data frame with 32 rows and five columns
-"Popcorn"
+"PopcornC4"
 
 
 #' Chapter 4 Soda

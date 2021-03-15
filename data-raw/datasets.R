@@ -24,8 +24,9 @@ Variable_DescriptionsC1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Variable
 Car1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Car1.csv")
 
 Weights <- ("Please type ?Weights for more information")
+Music <- ("Please type ?Music for more information")
 usethis::use_data(Age, Birdnest, ChiSq, Mice, MusicC1, MedSalaries, NLBB_Salaries, Car1, Twins, SameMean, Weights,
-                  Variable_DescriptionsC1, overwrite = TRUE)
+                  Variable_DescriptionsC1, Music, overwrite = TRUE)
 
 #Chapter 2
 
@@ -57,7 +58,7 @@ usethis::use_data(Emission, Games1, Games2, Hodgkins_Alternative, Hodgkins, Jury
 `2008Movies` <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 2008Movies Cleaned.csv")
 #`2008Movies` <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 2008Movies.csv")
 AIDS <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Aids.csv")
-AArsenic <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Arsenic.csv")
+Arsenic <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Arsenic.csv")
 Cars <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Cars.csv")
 Cars <- select(Cars, 1:12)
 Caucuses <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Caucuses.csv")
@@ -71,6 +72,22 @@ Worldbankvariable_names <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Worldban
 names(WeightsC3) <- c("Species", "Bodyweight", "Brainweight")
 usethis::use_data(Cars, Cavalier, `4-8Cyl`, MPG, WeightsC3, Arsenic, AIDS, Politics, Caucuses, `2008Movies`, Variable_DescriptionsC3,
                   overwrite = TRUE)
+
+
+#Chapter 4
+Bacteria = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Bacteria.csv")
+Cholesterol = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Cholesterol.csv")
+Cups = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Cups.csv")
+Games2C4 = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Games2.csv")
+MemoryA = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 MemoryA.csv")
+Movies = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Movies.csv")
+PaperTowel2 = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 PaperTowel2.csv")
+PaperTowels = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 PaperTowels.csv")
+PopcornC4= read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Popcorn.csv")
+Soda = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Soda.csv")
+Variable_DescriptionsC4 = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Variable Descriptions.csv")
+Popcorn <- ("Please type ?Popcorn for more information")
+usethis::use_data(Bacteria, Popcorn, Cholesterol, Cups, Games2C4, MemoryA, Movies, PaperTowel2, PaperTowels, PopcornC4, Soda, Variable_DescriptionsC4, overwrite = TRUE)
 
 
 
@@ -88,11 +105,11 @@ Memorathan1sampledata <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Memorathan
 Memorathan2sampledata <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Memorathan2 sample data.csv")
 Memory <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Memory.csv")
 MusicC5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Music.csv")
-Popcorn <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Popcorn.csv")
+PopcornC5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Popcorn.csv")
 Tennis <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Tennis.csv")
 VariableDescriptionsC5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C5 Variable Descriptions.csv")
 Music <- "Please type ?Music for more info or specify which chapter the dataset is from"
-usethis::use_data(Memory, Flower, Popcorn, Handwash, Tennis, MusicC5, Cookies, Corn, Cookies2, Football, Colors,
+usethis::use_data(Memory, Flower, PopcornC5, Handwash, Tennis, MusicC5, Cookies, Corn, Cookies2, Football, Colors,
                   Colors2, VariableDescriptionsC5, Music, overwrite = T)
 
 #Chapter 6

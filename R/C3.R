@@ -21,7 +21,7 @@
 
 #' Chapter 3 Cavalier Data
 #'
-#' The data set is a subset of the Cars dataset that only contains Cavalier models. See ?Cars for more information.
+#' The data set is a subset of the Cars dataset that only contains Cavalier models. Type ?Cars for more information.
 #'
 #'
 #'
@@ -40,7 +40,7 @@
 
 #' Chapter 3 4-8Cyl Data
 #'
-#' The data set is a subset of the Cars dataset that only contains cars with either 4 or 8 cyl. See ?Cars for more information.
+#' The data set is a subset of the Cars dataset that only contains cars with either 4 or 8 cyl. Type ?Cars for more information.
 #'
 #'
 #'
@@ -83,8 +83,7 @@
 #'
 #'In the process of studying the effect of sleep on mammals, T. Allison and D. Cicchetti collected the
 #'brain weights (in grams) and body weights (in kilograms) of 62 mammals.
-#'In the data set, you can
-#;see the measurements for these two variables for each of the 62 animals studied.
+#'In the data set, you can see the measurements for these two variables for each of the 62 animals studied.
 #'
 #'
 #'
@@ -137,8 +136,10 @@
 
 #' Chapter 3 Politics Data
 #'
-#'
-#'  In 2001, several college students collected data from 50 states on each of these factors from the U.S. Census Bureau.
+#' Do the population characteristics of each state (e.g., unemployment level, education level, age,
+#' income level, religious preferences, health insurance, and voter turnout) influence how people vote?
+#' Do these characteristics have an impact on the composition of state legislatures?
+#'In 2001, several college students collected data from 50 states on each of these factors from the U.S. Census Bureau.
 #'
 #'
 #'@docType data
@@ -150,7 +151,7 @@
 
 #' Chapter 3 Caucuses Data
 #'
-#'
+
 #' The Caucuses data set contains the 2008 Democratic and Republican caucus results. Republicans
 #' count actual votes. Democrats don’t record individual votes, but each precinct allocates its delegates
 #' based on the number of people in the precinct supporting each candidate during the caucus. Senator

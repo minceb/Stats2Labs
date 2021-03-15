@@ -17,11 +17,13 @@ towel was the strongest, and these students wanted to determine if there really 
 students purchased rolls of towels at a local store and sampled 26 towels from 3 brands of paper towels: Bounty, Comfort, and Decorator.
 Before any data were collected, these students determined that the following should be held as
 constant as possible throughout the study:
-•	 15 drops of water were applied to the center of each towel.
-•	 Paper towels were selected that had the same size.
-•	The towels were held at all four corners by two people.
-•	Weights (10, 25, 50, or 100 grams) were slowly added to the center of each towel by a third person
+\enumerate{
+\item 15 drops of water were applied to the center of each towel.
+\item Paper towels were selected that had the same size.
+\item The towels were held at all four corners by two people.
+\item Weights (10, 25, 50, or 100 grams) were slowly added to the center of each towel by a third person
 until it broke.
-•	The order in which the 26 paper towels were tested was randomized.
+\item The order in which the 26 paper towels were tested was randomized.
+}
 }
 \keyword{datasets}

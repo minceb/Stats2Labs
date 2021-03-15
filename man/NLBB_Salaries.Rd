@@ -11,7 +11,7 @@ A data frame with 15 rows and 5 columns
 NLBB_Salaries
 }
 \description{
-A dataset with NLBB salaries from 2016.
+A dataset with NLBB salaries from 2005.
 }
 \section{Chapter 1}{
 NA

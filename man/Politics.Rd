@@ -11,6 +11,9 @@ A data frame with 50 rows and 3 column (Column names are not conventional)
 Politics
 }
 \description{
+Do the population characteristics of each state (e.g., unemployment level, education level, age,
+income level, religious preferences, health insurance, and voter turnout) influence how people vote?
+Do these characteristics have an impact on the composition of state legislatures?
 In 2001, several college students collected data from 50 states on each of these factors from the U.S. Census Bureau.
 }
 \keyword{datasets}

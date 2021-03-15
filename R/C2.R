@@ -44,29 +44,9 @@
 
 #' Chapter 2 Games2
 #'
-#' Several students in an introductory statistics class wanted to develop a final project that would test the
-#' impact of distracters. They decided to conduct a study to determine if students at their college would perform
-#' differently when a distracting color was incorporated into a computerized game. This game challenges people
-#' to place an assortment of shaped pegs into the appropriate spaces as quickly as possible.
-#' Before any data were collected, these students developed a clear set of procedures:
-#' 1. 40 students would be randomly selected from the college.
-#' 2. 20 students would be assigned to the standard game and 20 would be assigned to a game with a color
-#'    distracter. The student researchers would flip a coin to randomly assign subjects to a treatment. Once
-#'    20 subjects had been assigned to either group, the rest would automatically be assigned to play the
-#'    other game.
-#' 3.	Subjects would see a picture of the game and have the rules clearly explained to them before they
-#'    played the game.
-#' 4. Subjects would play the game in the same area with similar background noise to control for other
-#'    possible distractions.
-#' 5. The response variable would be the time in seconds from when the participant pressed the “start
-#'    game” button to when he or she won the game.
+#' An extension on the Games1 dataset
 #'
-#' Additionally, they were interested in testing whether college
-#' students could play the game more quickly with their right or left hand.
-#' The data set Games2 shows a column Type2 with four types of games, based on distracter
-#' and which hand was used.
 #'
-
 #'
 #' @docType data
 #' @keywords datasets
@@ -108,26 +88,6 @@
 #' @format A data frame with 27 rows and two columns (Normal, Active, and Inactive).
 "Hodgkins_Alternative"
 
-#' Chapter 2 Jury
-#'
-#' Dr. Benjamin Spock was a well-known pediatrician who faced trial in 1968 for his activities as a
-#' Vietnam War protester. Specifically, he was charged with conspiring to violate the Selective Service Act by encouraging young men to resist the draft. As part of his defense, his counsel claimed
-#' that women were underrepresented on the jury. Women tend to be more sympathetic toward war
-#' protesters than men do. The defense counsel claimed that the judge had a history of choosing
-#' juries on which women were systematically underrepresented. At that time, jury members in Boston were chosen from a venire (a group of 30 to 200 individuals preselected from the population
-#' by the judge’s clerk). By law, people were supposed to be selected for a venire at random. For Dr.Spock’s trial, the judge’s venire had 100 people and only 9 women, none of whom were selected
-#' to be on the actual jury.
-#' Dr. Spock’s defense counsel collected data on the percentages of women in venires from this
-#' judge’s recent trials together with those of other judges in the Boston area.
-#'
-
-#'
-#' @docType data
-#' @keywords datasets
-#' @name Jury
-#' @usage Jury
-#' @format A data frame with 46 rows and two columns (Judge and Percent Women).
-"Jury"
 
 #' Chapter 2 Jury
 #'
@@ -173,7 +133,8 @@
 
 #' Chapter 2 Normal
 #'
-#' Random sample from a normal distribution.
+#' The first column is a random sample from a normal distribution. The second doubles only the 5 largest values. The third doubles only
+#' the 5 smallest values.
 #'
 #'
 #' @docType data
@@ -191,12 +152,12 @@
 #' students purchased rolls of towels at a local store and sampled 26 towels from 3 brands of paper towels: Bounty, Comfort, and Decorator.
 #' Before any data were collected, these students determined that the following should be held as
 #' constant as possible throughout the study:
-#' •	 15 drops of water were applied to the center of each towel.
-#' •	 Paper towels were selected that had the same size.
-#' •	The towels were held at all four corners by two people.
-#' •	Weights (10, 25, 50, or 100 grams) were slowly added to the center of each towel by a third person
+#' 1.	 15 drops of water were applied to the center of each towel.
+#' 2.	 Paper towels were selected that had the same size.
+#' 3.	The towels were held at all four corners by two people.
+#' 4.	Weights (10, 25, 50, or 100 grams) were slowly added to the center of each towel by a third person
 #' until it broke.
-#' •	The order in which the 26 paper towels were tested was randomized.
+#' 5.	The order in which the 26 paper towels were tested was randomized.
 #'
 #'
 #' @docType data
@@ -223,7 +184,7 @@
 #'
 #' Celiac disease results in an inability to absorb carbohydrates and fats. Crohn’s disease is another
 #' chronic intestinal disease in which the body’s immune system attacks the intestines. Both Crohn’s
-#' disease and celiac disease often result in malnutrition or impaired growth in children. A skinfold
+#' disease and Celiac disease often result in malnutrition or impaired growth in children. A skinfold
 #' thickness measurement is a simple technique assessing body fat percentages by pinching the skin
 #' near the biceps and then using a calipers to measure the skin thickness.
 #'

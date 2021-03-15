@@ -11,6 +11,6 @@ A dataset with 18 rows and 3 columns
 SameMean
 }
 \description{
-DONT HAVE A DESCRIPTION FOR THIS DATASET.
+This dataset is used to illuminate some key features of rank-based nonparametric tests.
 }
 \keyword{datasets}

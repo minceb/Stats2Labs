@@ -13,7 +13,7 @@ Skinfold
 \description{
 Celiac disease results in an inability to absorb carbohydrates and fats. Crohn’s disease is another
 chronic intestinal disease in which the body’s immune system attacks the intestines. Both Crohn’s
-disease and celiac disease often result in malnutrition or impaired growth in children. A skinfold
+disease and Celiac disease often result in malnutrition or impaired growth in children. A skinfold
 thickness measurement is a simple technique assessing body fat percentages by pinching the skin
 near the biceps and then using a calipers to measure the skin thickness.
 }

@@ -11,6 +11,7 @@ A data frame with 25 rows and three columns.
 Normal
 }
 \description{
-Random sample from a normal distribution.
+The first column is a random sample from a normal distribution. The second doubles only the 5 largest values. The third doubles only
+the 5 smallest values.
 }
 \keyword{datasets}

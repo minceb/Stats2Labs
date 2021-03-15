@@ -41,10 +41,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Popcorn
-#' @usage Popcorn
+#' @name PopcornC5
+#' @usage PopcornC5
 #' @format A dataframe with 12 rows and 5 variables
-"Popcorn"
+"PopcornC5"
 
 
 #' Chapter 5 Handwash Data

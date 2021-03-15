@@ -17,6 +17,6 @@ WeightsC3
 \description{
 In the process of studying the effect of sleep on mammals, T. Allison and D. Cicchetti collected the
 brain weights (in grams) and body weights (in kilograms) of 62 mammals.
-In the data set, you can
+In the data set, you can see the measurements for these two variables for each of the 62 animals studied.
 }
 \keyword{datasets}

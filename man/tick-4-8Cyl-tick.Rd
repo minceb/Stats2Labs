@@ -12,6 +12,6 @@ A data frame with 244 rows and 12 Columns
 `4-8Cyl`
 }
 \description{
-The data set is a subset of the Cars dataset that only contains cars with either 4 or 8 cyl. See ?Cars for more information.
+The data set is a subset of the Cars dataset that only contains cars with either 4 or 8 cyl. Type ?Cars for more information.
 }
 \keyword{datasets}

@@ -11,6 +11,6 @@ A data frame with 30 rows and 12 Columns
 Cavalier
 }
 \description{
-The data set is a subset of the Cars dataset that only contains Cavalier models. See ?Cars for more information.
+The data set is a subset of the Cars dataset that only contains Cavalier models. Type ?Cars for more information.
 }
 \keyword{datasets}

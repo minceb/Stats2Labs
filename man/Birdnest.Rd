@@ -16,7 +16,7 @@ Each record in the data set represents data for a species of North American pass
 “perching birds” and include many families of familiar small birds (e.g., spar-rows and warblers) as well as some
 larger species like crows and ravens, but do not include hawks, owls, water fowl, wading birds, and woodpeckers.
 Moore took all North American passerines for which complete evolutionary data were available, which comprised 99
-of the 470 species of pas-serines in North America (part of her study used this evolutionary information).
+of the 470 species of passerines in North America (part of her study used this evolutionary information).
 One hypothesis of interest was about the relationship of body size to type of nest. Body size was measured as
 average length of the species, nest type was categorized as either closed or open. Although nests come in a
 variety of types (see the Nesttype variable), in this data set “closed” refers to nests with only a small

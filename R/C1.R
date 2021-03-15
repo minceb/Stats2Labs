@@ -1,15 +1,8 @@
 #' Chapter 1 Age data
 #'
-#' This dataset come from a lawsuit by Robert Martin where he worked at Westavco, a paper producer company. He was laid off in Round 2 of several
-#' layoffs by the company. He sued the company, claiming to be a victim of age discrimination. The ages of the 10 workers involved in Round 2 were: 25,
-#' 33, 35, 38, 48, 55, 55, 55, 56, and 64. The ages of the three people laid off were 55, 55, and 64.
-#'
-#'
-#'
-#'
-#'
-#'
-#'
+#' This data comes from a lawsuit involving Robert Martin and the company he worked at, Westavco, a paper producer company. He was laid off in Round 2
+#' of several layoffs by the company. He sued the company, claiming to be a victim of age discrimination. The ages of the 10 workers
+#' involved in Round 2 were: 25, 33, 35, 38, 48, 55, 55, 55, 56, and 64. The ages of the three people laid off were 55, 55, and 64.
 #'
 #' @docType data
 #' @keywords datasets
@@ -26,19 +19,12 @@
 #'“perching birds” and include many families of familiar small birds (e.g., spar-rows and warblers) as well as some
 #'larger species like crows and ravens, but do not include hawks, owls, water fowl, wading birds, and woodpeckers.
 #'Moore took all North American passerines for which complete evolutionary data were available, which comprised 99
-#'of the 470 species of pas-serines in North America (part of her study used this evolutionary information).
+#'of the 470 species of passerines in North America (part of her study used this evolutionary information).
 #'One hypothesis of interest was about the relationship of body size to type of nest. Body size was measured as
 #'average length of the species, nest type was categorized as either closed or open. Although nests come in a
 #'variety of types (see the Nesttype variable), in this data set “closed” refers to nests with only a small
 #'opening to the outside, such as the tree-cavity nest of many nuthatches or the pendant-style nest of an oriole.
 #'“Open” nests include the cup-shaped nest of the American robin. This dataset is used in Chapter 1 and 7.
-#'
-#'
-#'
-#'
-#'
-#'
-#'
 #'
 #'
 #' @docType data
@@ -55,13 +41,7 @@
 #' and leather interiors. The data set contains four makes of General Motors cars: Pontiac, Chevrolet, Cadillac,
 #' and Buick.
 #'
-#'
-#'
-#'
-#'
-#'
-#'
-#'
+
 #' @section Chapter 1
 #' @docType data
 #' @keywords datasets
@@ -73,13 +53,6 @@
 #' Chapter 1 ChiSq data
 #'
 #' The ChiSq data comes from a highly skewed population (with mean 0.9744 and standard deviation 1.3153)
-#'
-#'
-#'
-#'
-#'
-#'
-#'
 #'
 #' @docType data
 #' @keywords datasets
@@ -95,13 +68,6 @@
 #' refer to page 16.
 #'
 #'
-#'
-#'
-#'
-#'
-#'
-#'
-#'
 #' @docType data
 #' @keywords datasets
 #' @name MedSalaries
@@ -111,7 +77,12 @@
 
 #' Chapter 1 Mice data
 #'
-#' This data comes from a study in which the researchers wanted to find out whether K11777 helps to stop schistosome worms from growing. In one phase of the study, 10 female laboratory mice and 10 male laboratory mice were deliberately infected with the schistosome parasite. Starting seven days after being infected with schistosomiasis, each mouse was given an injection every day for 28 days. Within each sex, five mice were randomly assigned to a treatment of K11777 and the other five mice formed a con-trol group injected with an equal volume of plain water. On day 49, the researchers euthanized the mice and measured both the number of eggs and the number of worms in their livers. Both numbers were expected to be lower in the treatment group if the drug was effective.
+#' This data comes from a study in which the researchers wanted to find out whether K11777 helps stop schistosome worms from growing.
+#' In one phase of the study, 10 female laboratory mice and 10 male laboratory mice were deliberately infected with the schistosome parasite.
+#' Starting seven days after being infected with schistosomiasis, each mouse was given an injection every day for 28 days. Within each sex,
+#' five mice were randomly assigned to a treatment of K11777 and the other five mice formed a control group injected with an equal volume of
+#'  plain water. On day 49, the researchers euthanized the mice and measured both the number of eggs and the number of worms in their livers.
+#'  Both numbers were expected to be lower in the treatment group if the drug was effective.
 #'
 #'
 #'
@@ -141,11 +112,6 @@
 #' See chapter 1 page 11 for more information about this dataset.
 #'
 #'
-#'
-#'
-#'
-#'
-#'
 #' @docType data
 #' @keywords datasets
 #' @name MusicC1
@@ -155,14 +121,7 @@
 
 #' Chapter 1 NLBB Salaries
 #'
-#' A dataset with NLBB salaries from 2016.
-#'
-#'
-#'
-#'
-#'
-#'
-#'
+#' A dataset with NLBB salaries from 2005.
 #'
 #' @section Chapter 1
 #' @docType data
@@ -174,15 +133,7 @@
 
 #' Chapter 1 SameMean dataset
 #'
-#' DONT HAVE A DESCRIPTION FOR THIS DATASET.
-#'
-#'
-#'
-#'
-#'
-#'
-#'
-#'
+#' This dataset is used to illuminate some key features of rank-based nonparametric tests.
 #'
 #' @docType data
 #' @keywords datasets
@@ -197,15 +148,7 @@
 #' imaging to measure the volume of various regions of the brain for a sample of 15 monozygotic twins, where
 #' one twin was affected with schizophrenia and the other was unaffected. The twins were from North America and
 #' comprised eight male pairs, and seven female pairs ranging in age from 25 to 44 at the time of the study.
-#' The sizes in volume (cm3) of the hippocampus are in the file called Twins.
-#'
-#'
-#'
-#'
-#'
-#'
-#'
-#'
+#' The sizes in volume (cm3) of the hippocampus are in this dataset.
 #'
 #' @docType data
 #' @keywords datasets
