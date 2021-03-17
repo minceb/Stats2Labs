@@ -18,9 +18,7 @@ six variables that should be tested for their effects on leaking cups. One of th
 was which paper supplier to use. Since the company was considering changing suppliers, funds were
 available to do some product testing before a purchase was made. However, each trial (each run of
 production under specified factor conditions) would cost the company thousands of dollars in lost
-production time, material costs, and employee costs. T
-}
-\details{
+production time, material costs, and employee costs.
 The company agreed to conduct 32 tests, but wanted to test all six factors and
 all corresponding twoway interactions. Fractional factorial designs are very useful
 for this type of exploratory data analysis. The details of fractional factorial designs

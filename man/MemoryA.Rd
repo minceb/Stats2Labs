@@ -19,9 +19,7 @@ Counting: count the number of letters in each word
 Rhyming: think of a word that rhymes with each word
 Adjective: think of an adjective to describe each word
 Imagery: create an image of each word
-Intentional: remember as many words as possible
-}
-\details{
+Intentional: remember as many words as possible.
 The subjects in the first four groups were not aware that they would later be asked to recall each
 word.
 }

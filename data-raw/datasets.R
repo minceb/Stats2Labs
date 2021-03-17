@@ -80,13 +80,13 @@ Cholesterol = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Cholesterol.csv")
 Cups = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Cups.csv")
 MemoryA = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 MemoryA.csv")
 Movies = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Movies.csv")
-PaperTowel2 = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 PaperTowel2.csv")
+Towels2 = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 PaperTowel2.csv")
 PaperTowels = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 PaperTowels.csv")
 PopcornC4= read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Popcorn.csv")
 Soda = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Soda.csv")
 Variable_DescriptionsC4 = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Variable Descriptions.csv")
 Popcorn <- ("Please type ?Popcorn for more information")
-usethis::use_data(Bacteria, Popcorn, Cholesterol, Cups, MemoryA, Movies, PaperTowel2, PaperTowels, PopcornC4, Soda, Variable_DescriptionsC4, overwrite = TRUE)
+usethis::use_data(Bacteria, Popcorn, Cholesterol, Cups, MemoryA, Movies, Towels2, PaperTowels, PopcornC4, Soda, Variable_DescriptionsC4, overwrite = TRUE)
 
 
 

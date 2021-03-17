@@ -52,8 +52,7 @@
 #' was which paper supplier to use. Since the company was considering changing suppliers, funds were
 #' available to do some product testing before a purchase was made. However, each trial (each run of
 #' production under specified factor conditions) would cost the company thousands of dollars in lost
-#' production time, material costs, and employee costs. T
-#'
+#' production time, material costs, and employee costs.
 #' The company agreed to conduct 32 tests, but wanted to test all six factors and
 #' all corresponding twoway interactions. Fractional factorial designs are very useful
 #' for this type of exploratory data analysis. The details of fractional factorial designs
@@ -83,8 +82,7 @@
 #'   Rhyming: think of a word that rhymes with each word
 #'   Adjective: think of an adjective to describe each word
 #'   Imagery: create an image of each word
-#'   Intentional: remember as many words as possible
-#'
+#'   Intentional: remember as many words as possible.
 #' The subjects in the first four groups were not aware that they would later be asked to recall each
 #' word.
 #'
@@ -110,16 +108,16 @@
 "Movies"
 
 
-#' Chapter 4 PaperTowel2
+#' Chapter 4 Towels2
 #'
-#' Supplementary Data for PaperTowels.
+#' Supplementary Data for PaperTowels which include the brand Bounty.
 #'
 #' @docType data
 #' @keywords datasets
-#' @name PaperTowel2
-#' @usage PaperTowel2
+#' @name Towels2
+#' @usage Towels2
 #' @format A data frame with 234 rows and three columns
-"PaperTowel2"
+"Towels2"
 
 
 #' Chapter 4 PaperTowels
