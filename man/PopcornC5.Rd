@@ -18,4 +18,9 @@ Two bags were randomly selected from each box and stored for one week, one in th
 the other at room temperature (Room). The bags were popped in random order according to the instructions
 on the box, and the percentage of popped kernels was calculated for each bag.
 }
+\details{
+*The students initially thought that temperature was the influencing factor, but a little research showed that the humidity
+of the storage location was believed to influence the percentage of popped kernels. In this study, the conditions in the
+refrigerator were much more humid than those in the other location.
+}
 \keyword{datasets}

@@ -17,6 +17,6 @@ on larger sample sizes are more reliable and increase the ability to confidently
 properly designed experiments can be very effective even with small sample sizes, as we will see when we
 analyze the memory experiment data. Instead of attempting to calculate the sample size needed before a study
 is conducted, this text focuses on using the model assumptions and analysis (discussed in Chapters 2 and 4)
-to determine if the study is reliable. See chapter 5 for more info.
+to determine if the study is reliable. See chapter 5 for more information.
 }
 \keyword{datasets}

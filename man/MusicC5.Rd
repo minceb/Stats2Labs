@@ -23,6 +23,6 @@ These students developed a research question asking if music also influences per
 other areas. They designed an experiment testing whether music tempo or length of test (1 minute or                                                                                        3 minutes) influenced students’ ability to type fast and accurately. Would subjects listening to Stayin’ Alive type at a different speed than subjects listening to Yesterday by the Beatles?
 Forty undergraduate students consented to be in the study. Each subject took four tests from
 the website typingtest.com in random order based on two coin flips: 1 min/Yesterday, 1 min/Stayin’ Alive, 3 min/Yesterday, and 3 min/Stayin’ Alive. The questions the researcher wanted to test were
-the effect of Song, Length, and Song*Length on words per minute (WPM)
+the effect of Song, Length, and Song*Length on words per minute (WPM).
 }
 \keyword{datasets}

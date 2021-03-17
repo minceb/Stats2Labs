@@ -7,6 +7,9 @@
 \format{
 A data frame with 128 rows and 5 columns
 }
+\source{
+S. Kastner, P. De Weerd, R. Desimone, and L. G. Ungerleider, “Mechanisms of Directed Attention in the Human Extrastriate Cortex as Revealed by Functional MRI,” Science, 282 (1998): 5386.
+}
 \usage{
 Colors
 }

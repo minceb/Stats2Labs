@@ -6,7 +6,7 @@
 #' properly designed experiments can be very effective even with small sample sizes, as we will see when we
 #' analyze the memory experiment data. Instead of attempting to calculate the sample size needed before a study
 #' is conducted, this text focuses on using the model assumptions and analysis (discussed in Chapters 2 and 4)
-#' to determine if the study is reliable. See chapter 5 for more info.
+#' to determine if the study is reliable. See chapter 5 for more information.
 #'
 #' @docType data
 #' @keywords datasets
@@ -19,7 +19,7 @@
 #'
 #' Students in an introductory statistics class tested the impact of different types of water solutions on the longevity of cut flowers. They purchased 18 white carnations and randomly assigned each flower to one of three
 #' treatments (plain water, one aspirin crushed and added to the water, and a floral compound provided by the
-#' flower shop) and then measured how many days it took until the flower wilted. See page 151 for more info.
+#' flower shop) and then measured how many days it took until the flower wilted. See page 151 for more information.
 #'
 #'
 #' @docType data
@@ -38,6 +38,9 @@
 #' the other at room temperature (Room). The bags were popped in random order according to the instructions
 #' on the box, and the percentage of popped kernels was calculated for each bag.
 #'
+#' *The students initially thought that temperature was the influencing factor, but a little research showed that the humidity
+#' of the storage location was believed to influence the percentage of popped kernels. In this study, the conditions in the
+#' refrigerator were much more humid than those in the other location.
 #'
 #' @docType data
 #' @keywords datasets
@@ -65,7 +68,7 @@
 #' @keywords datasets
 #' @name Handwash
 #' @usage Handwash
-#' @format A data frame with 12 rows and 5 columns
+#' @format A data frame with 30 rows and 4 columns
 "Handwash"
 
 
@@ -100,7 +103,7 @@
 #' other areas. They designed an experiment testing whether music tempo or length of test (1 minute or                                                                                        3 minutes) influenced students’ ability to type fast and accurately. Would subjects listening to Stayin’ Alive type at a different speed than subjects listening to Yesterday by the Beatles?
 #' Forty undergraduate students consented to be in the study. Each subject took four tests from
 #' the website typingtest.com in random order based on two coin flips: 1 min/Yesterday, 1 min/Stayin’ Alive, 3 min/Yesterday, and 3 min/Stayin’ Alive. The questions the researcher wanted to test were
-#' the effect of Song, Length, and Song*Length on words per minute (WPM)
+#' the effect of Song, Length, and Song*Length on words per minute (WPM).
 #'
 #'
 #' @docType data
@@ -165,7 +168,6 @@
 #'
 #' Two students wanted to test whether ingredients (butter, Fleischmann’s corn oil margarine, or unflavored Crisco), cooking time (short or long) or cookie type (chocolate chip or gingersnap) influenced
 #' taste ratings. Both main effects and interactions were of interest.
-#'
 #' Twelve volunteers were found who were each willing to taste 12 cookies in random order (one taste for each of the two cookie types, the three ingredient types, and the two cooking times). Each
 #' volunteer ranked all 12 cookies on a scale from 1 to 10 (10 being the best).
 #'
@@ -214,6 +216,7 @@
 #' @name Colors
 #' @usage Colors
 #' @format A data frame with 128 rows and 5 columns
+#' @source S. Kastner, P. De Weerd, R. Desimone, and L. G. Ungerleider, “Mechanisms of Directed Attention in the Human Extrastriate Cortex as Revealed by Functional MRI,” Science, 282 (1998): 5386.
 "Colors"
 
 #' Chapter 5 Colors2 data

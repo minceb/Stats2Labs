@@ -13,8 +13,6 @@ Cookies2
 \description{
 Two students wanted to test whether ingredients (butter, Fleischmann’s corn oil margarine, or unflavored Crisco), cooking time (short or long) or cookie type (chocolate chip or gingersnap) influenced
 taste ratings. Both main effects and interactions were of interest.
-}
-\details{
 Twelve volunteers were found who were each willing to taste 12 cookies in random order (one taste for each of the two cookie types, the three ingredient types, and the two cooking times). Each
 volunteer ranked all 12 cookies on a scale from 1 to 10 (10 being the best).
 }

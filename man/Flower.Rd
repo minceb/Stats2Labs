@@ -13,6 +13,6 @@ Flower
 \description{
 Students in an introductory statistics class tested the impact of different types of water solutions on the longevity of cut flowers. They purchased 18 white carnations and randomly assigned each flower to one of three
 treatments (plain water, one aspirin crushed and added to the water, and a floral compound provided by the
-flower shop) and then measured how many days it took until the flower wilted. See page 151 for more info.
+flower shop) and then measured how many days it took until the flower wilted. See page 151 for more information.
 }
 \keyword{datasets}

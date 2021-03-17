@@ -5,7 +5,7 @@
 \alias{Handwash}
 \title{Chapter 5 Handwash Data}
 \format{
-A data frame with 12 rows and 5 columns
+A data frame with 30 rows and 4 columns
 }
 \usage{
 Handwash

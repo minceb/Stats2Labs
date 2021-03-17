@@ -20,13 +20,13 @@ MusicC1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Music.csv")
 NLBB_Salaries <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 NLBB Salaries.csv")
 SameMean <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 SameMean.csv")
 Twins <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Twins.csv")
-Variable_DescriptionsC1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Variable Descriptions.csv")
+VariableDescriptionsC1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Variable Descriptions.csv")
 Car1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C1 Car1.csv")
 
 Weights <- ("Please type ?Weights for more information")
 Music <- ("Please type ?Music for more information")
 usethis::use_data(Age, Birdnest, ChiSq, Mice, MusicC1, MedSalaries, NLBB_Salaries, Car1, Twins, SameMean, Weights,
-                  Variable_DescriptionsC1, Music, overwrite = TRUE)
+                  VariableDescriptionsC1, Music, overwrite = TRUE)
 
 #Chapter 2
 
@@ -43,13 +43,13 @@ RegrTrans = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 RegrTrans.csv")
 Skinfold = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Skinfold.csv")
 Tires_Alternative = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Tires-alternative.csv")
 Tires = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Tires.csv")
-Variable_DescriptionsC2 = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Variable Descriptions.csv")
+VariableDescriptionsC2 = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Variable Descriptions.csv")
 WeightsC2 = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Weights.csv")
 Winglength1 = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Winglength1.csv")
 Winglength2 = read.csv("C:/Users/Bowen/Desktop/DataSets/C2 Winglength2.csv")
 
 usethis::use_data(Emission, Games1, Games2, Hodgkins_Alternative, Hodgkins, Jury_Alternative, Jury, Normal,
-                  PaperTowel, RegrTrans, Skinfold, Tires_Alternative, Tires, Variable_DescriptionsC2, WeightsC2,
+                  PaperTowel, RegrTrans, Skinfold, Tires_Alternative, Tires, VariableDescriptionsC2, WeightsC2,
                   Winglength1, Winglength2, overwrite = TRUE)
 
 
@@ -65,12 +65,12 @@ Caucuses <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Caucuses.csv")
 Cavalier <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Cavalier.csv")
 MPG <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 MPG.csv")
 Politics <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Politics.csv")
-Variable_DescriptionsC3 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Variable Descriptions.csv")
+VariableDescriptionsC3 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Variable Descriptions.csv")
 WeightsC3 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Weights.csv")
 Worldbank <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Worldbank.csv")
 Worldbankvariable_names <- read.csv("C:/Users/Bowen/Desktop/DataSets/C3 Worldbank-variable names.csv")
 names(WeightsC3) <- c("Species", "Bodyweight", "Brainweight")
-usethis::use_data(Cars, Cavalier, `4-8Cyl`, MPG, WeightsC3, Arsenic, AIDS, Politics, Caucuses, `2008Movies`, Variable_DescriptionsC3,
+usethis::use_data(Cars, Cavalier, `4-8Cyl`, MPG, WeightsC3, Arsenic, AIDS, Politics, Caucuses, `2008Movies`, VariableDescriptionsC3,
                   overwrite = TRUE)
 
 
@@ -84,9 +84,9 @@ Towels2 = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 PaperTowel2.csv")
 PaperTowels = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 PaperTowels.csv")
 PopcornC4= read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Popcorn.csv")
 Soda = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Soda.csv")
-Variable_DescriptionsC4 = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Variable Descriptions.csv")
+VariableDescriptionsC4 = read.csv("C:/Users/Bowen/Desktop/DataSets/C4 Variable Descriptions.csv")
 Popcorn <- ("Please type ?Popcorn for more information")
-usethis::use_data(Bacteria, Popcorn, Cholesterol, Cups, MemoryA, Movies, Towels2, PaperTowels, PopcornC4, Soda, Variable_DescriptionsC4, overwrite = TRUE)
+usethis::use_data(Bacteria, Popcorn, Cholesterol, Cups, MemoryA, Movies, Towels2, PaperTowels, PopcornC4, Soda, VariableDescriptionsC4, overwrite = TRUE)
 
 
 
