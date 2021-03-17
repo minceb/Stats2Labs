@@ -178,17 +178,17 @@
 "2008Movies"
 
 
-#' Chapter 3 Variable_Descriptions
+#' Chapter 3 VariableDescriptions
 #'
 #' An index of the Chapter 2 Data included in this package.
 #'
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Variable_DescriptionsC3
-#' @usage Variable_DescriptionsC3
+#' @name VariableDescriptionsC3
+#' @usage VariableDescriptionsC3
 #' @format A data frame with 96 rows and four columns (Chapter, Data.Set, Variable.Name, and Description).
-"Variable_DescriptionsC3"
+"VariableDescriptionsC3"
 
 
 

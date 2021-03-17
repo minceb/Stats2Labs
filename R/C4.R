@@ -187,16 +187,16 @@
 #' @format A data frame with 24 rows and four columns
 "Soda"
 
-#' Chapter 4 Variable_DescriptionsC4
+#' Chapter 4 Variable Descriptions
 #'
 #' An index of the chapter 4 data included in this package.
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Variable_DescriptionsC4
-#' @usage Variable_DescriptionsC4
+#' @name VariableDescriptionsC4
+#' @usage VariableDescriptionsC4
 #' @format A data frame with 43 rows and four columns
-"Variable_DescriptionsC4"
+"VariableDescriptionsC4"
 
 
 

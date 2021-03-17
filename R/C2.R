@@ -224,17 +224,7 @@
 #' @format A data frame with 30 rows and 13 columns.
 "Tires_Alternative"
 
-#' Chapter 2 Variable_Descriptions
-#'
-#' An index of the Chapter 2 Data included in this package.
-#'
-#'
-#' @docType data
-#' @keywords datasets
-#' @name Variable_DescriptionsC2
-#' @usage Variable_DescriptionsC2
-#' @format A data frame with 35 rows and four columns (Chapter, Data.Set, Variable.Name, and Description).
-"Variable_DescriptionsC2"
+
 
 #' Chapter 2 Weights
 #'
@@ -273,3 +263,15 @@
 #' @usage Winglength2
 #' @format A data frame with 30 rows and three columns (WingLength, FlightTime, and Order).
 "Winglength2"
+
+#' Chapter 2 Variable Descriptions
+#'
+#' An index of the Chapter 2 Data included in this package.
+#'
+#'
+#' @docType data
+#' @keywords datasets
+#' @name VariableDescriptionsC2
+#' @usage VariableDescriptionsC2
+#' @format A data frame with 35 rows and four columns (Chapter, Data.Set, Variable.Name, and Description).
+"VariableDescriptionsC2"
