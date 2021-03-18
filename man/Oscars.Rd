@@ -14,6 +14,8 @@ Oscars
 In 2009, three Grinnell students (Allie Greenberg, Hannah Lytle, and Phillip Brogdon) conducted an
 analysis to estimate the probability of winning the Academy Award for Best Picture. The Academy
 Awards, or “Oscars,” are given annually to honor high achievement in the film industry. The Academy consists of over 6000 members who nominate their colleagues and vote to decide on the winners
-of this prestigious award.
+of this prestigious award.In their analysis, these students included all films nominated for Best Picture from 1979 to 2008.
+Winning Best Picture was considered the response (1 represents a win), and the explanatory variables included whether or not the picture won any of 17 other awards that were given out during that
+year’s ceremony.
 }
 \keyword{datasets}

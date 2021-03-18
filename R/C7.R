@@ -19,13 +19,14 @@
 #' In this data set, radius is actually the average radius (in micrometers, mm) of all visible cell nuclei from a slide, but we will refer to this variable simply as the cell radius for the tumor. The concavity
 #' of the cell nuclei is an indicator of whether the visible cell nuclei from the sample have the nice round shape
 #' of typical healthy cells or whether cells appear to have grown in such a way that the perimeters of the cell
-#' nuclei tend to have concave points.
+#' nuclei tend to have concave points. For more information about how the data was collected, see page 224.
 #'
 #' @docType data
 #' @keywords datasets
 #' @name Cancer2
 #' @usage Cancer2
 #' @format A data frame with 569 observations with 3 columns
+#' @source W. Wolberg and O. Mangasarian, “Multisurface Method of Pattern Separation for Medical Diagnosis Applied to Breast Cytology,” Proceedings of the National Academy of Sciences of the United States of America, 87. 23 (Dec. 1990): 9193–9196.
 "Cancer2"
 
 #' Chapter 7 Table 7.3 data
@@ -58,7 +59,7 @@
 #' for California.16 The leaders attempted a new route through the Sierra Nevada and were stranded
 #' there throughout the winter. The harsh weather conditions and lack of food resulted in the death of
 #' many people within the group. Social scientists have used the data to study the theory that females
-#' are better able than men to survive harsh conditions.
+#' are better able than males to survive harsh conditions.
 #'
 #' @docType data
 #' @keywords datasets
@@ -147,7 +148,9 @@
 #'  In 2009, three Grinnell students (Allie Greenberg, Hannah Lytle, and Phillip Brogdon) conducted an
 #' analysis to estimate the probability of winning the Academy Award for Best Picture. The Academy
 #' Awards, or “Oscars,” are given annually to honor high achievement in the film industry. The Academy consists of over 6000 members who nominate their colleagues and vote to decide on the winners
-#' of this prestigious award.
+#' of this prestigious award.In their analysis, these students included all films nominated for Best Picture from 1979 to 2008.
+#' Winning Best Picture was considered the response (1 represents a win), and the explanatory variables included whether or not the picture won any of 17 other awards that were given out during that
+#' year’s ceremony.
 #'
 #' @docType data
 #' @keywords datasets
@@ -185,6 +188,5 @@
 #' @usage VariableDescriptionsC7
 #' @format a dataset with 65 rows and 4 columns
 "VariableDescriptionsC7"
-#'
-#'
+
 

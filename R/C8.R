@@ -137,20 +137,7 @@
 "Smoking"
 
 
-#' Chapter 8 Table_8.1
-#'
-#' Cancer cases and cancer incidence rates (CIR) by age group for the Bartlett–Green
-#' Acres neighborhood of Randolph (BGA), 1964–1984, and similar data from the
-#' Connecticut Tumor Registry (CTR), 1980–1984.
-#'
-#'
-#'
-#' @docType data
-#' @keywords datasets
-#' @name Table_8.1
-#' @usage Table_8.1
-#' @format A data frame with eight rows and six columns
-"Table_8.1"
+
 
 
 

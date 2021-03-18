@@ -7,6 +7,9 @@
 \format{
 A data frame with 242 rows and nine columns
 }
+\source{
+V. K. Bentley-Condit, T. L. Moore, and E. O. Smith, “Analysis of Infant Handling and the Effects of Female Rank Among Tana River Adult Female Yellow Baboons Using Permutation/Randomization Tests,” American Journal of Primatology, 55 (2001): 117–130
+}
 \usage{
 Baboon
 }

@@ -24,7 +24,7 @@
 #'average length of the species, nest type was categorized as either closed or open. Although nests come in a
 #'variety of types (see the Nesttype variable), in this data set “closed” refers to nests with only a small
 #'opening to the outside, such as the tree-cavity nest of many nuthatches or the pendant-style nest of an oriole.
-#'“Open” nests include the cup-shaped nest of the American robin. This dataset is used in Chapter 1 and 7.
+#'“Open” nests include the cup-shaped nest of the American robin. This dataset is used in Chapters 1 and 7.
 #'
 #'
 #' @docType data

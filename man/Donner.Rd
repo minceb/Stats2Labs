@@ -18,6 +18,6 @@ In 1846, a group of 87 people (called the Donner Party) were heading west from S
 for California.16 The leaders attempted a new route through the Sierra Nevada and were stranded
 there throughout the winter. The harsh weather conditions and lack of food resulted in the death of
 many people within the group. Social scientists have used the data to study the theory that females
-are better able than men to survive harsh conditions.
+are better able than males to survive harsh conditions.
 }
 \keyword{datasets}

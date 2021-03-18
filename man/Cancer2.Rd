@@ -7,6 +7,9 @@
 \format{
 A data frame with 569 observations with 3 columns
 }
+\source{
+W. Wolberg and O. Mangasarian, “Multisurface Method of Pattern Separation for Medical Diagnosis Applied to Breast Cytology,” Proceedings of the National Academy of Sciences of the United States of America, 87. 23 (Dec. 1990): 9193–9196.
+}
 \usage{
 Cancer2
 }
@@ -14,6 +17,6 @@ Cancer2
 In this data set, radius is actually the average radius (in micrometers, mm) of all visible cell nuclei from a slide, but we will refer to this variable simply as the cell radius for the tumor. The concavity
 of the cell nuclei is an indicator of whether the visible cell nuclei from the sample have the nice round shape
 of typical healthy cells or whether cells appear to have grown in such a way that the perimeters of the cell
-nuclei tend to have concave points.
+nuclei tend to have concave points. For more information about how the data was collected, see page 224.
 }
 \keyword{datasets}

@@ -113,6 +113,21 @@ usethis::use_data(Memory, Flower, PopcornC5, Handwash, Tennis, MusicC5, Cookies,
 
 #Chapter 6
 
+Baboon <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Baboon.csv")
+BaboonVariableDescriptions <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Baboon Variable Descriptions.csv")
+BabyWeight <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 babyweights.csv")
+Table6.1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.1.csv")
+Table6.5 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.5.csv")
+Table6.7 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.7.csv")
+Table6.9 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.9.csv")
+Table6.10 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.10.csv")
+Table6.11 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.11.csv")
+Table6.12 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.12.csv")
+Table6.13 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.13.csv")
+Table6.14 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.14.csv")
+Table6.15 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C6 Table 6.15.csv")
+usethis::use_data(Baboon, BaboonVariableDescriptions, BabyWeight, Table6.1, Table6.5, Table6.7, Table6.9, Table6.10, Table6.11, Table6.12,
+                  Table6.13, Table6.14, Table6.15, overwrite = T)
 
 #Chapter 7
 
@@ -136,6 +151,8 @@ Tattoos <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Tatoos.csv")
 VariableDescriptionsC7 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Variable Descriptions.csv")
 usethis::use_data(Shuttle, Cancer2, Table7.3, Cancercells, Donner, Convict, SIRDS, Tattoos, Birdkeeping, Burns,
                   Oscars, Oscars2, VariableDescriptionsC7, overwrite = T)
+
+
 
 
 
