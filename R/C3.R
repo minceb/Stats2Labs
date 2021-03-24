@@ -110,7 +110,10 @@
 #' arsenic concentrations are related to cancer, and several studies have found a positive correlation
 #' between arsenic concentrations of drinking water and toenail samples.
 #'
-#'
+#' DRINK: Household well used for drinking (1=<1/4 2=1/4 3=1/2 4=3/4 5=>3/4).
+#' COOK: Household well used for cooking (1=<1/4 2=1/4 3=1/2 4=3/4 5=>3/4).
+#' WATER: Arsenic in water (ppm).
+#' NAILS: Arsenic in toenails (ppm).
 #'
 #' @docType data
 #' @keywords datasets

@@ -26,4 +26,13 @@ between increased sexual activity of male fruitflies and longevity of life (in d
 analysis of covariance techniques. However, survival analysis methods can also be used to study the
 life durations of male and female fruit flies. See pages 325 and 326 for brief descriptions of the variables.
 }
+\details{
+Partners: number of companions (0, 1, or 8)
+Type: type of companion (0 = newly pregnant female, 1 = virgin female, 9 = not applicable (when                                                                                        Partners = 0))
+Longevity: lifespan, in days (This is the time-to-event variable.)
+Thorax: length of thorax in mm
+Sleep: percentage of each day spent sleeping
+Censor: censoring status (Note that this variable takes only value 1, since the data are all complete. A
+censoring status variable is necessary for software implementation.)
+}
 \keyword{datasets}

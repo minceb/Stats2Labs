@@ -73,7 +73,7 @@
 #' person: a dichotomous variable identifying former inmates who had a history of person-related
 #' crimes—that is, those with one or more convictions for offenses such as aggravated assault or kidnapping
 #'
-#'property: a dichotomous variable indicating whether former inmates had been convicted of a property-related crime
+#' property: a dichotomous variable indicating whether former inmates had been convicted of a property-related crime
 #'
 #' cenage: the “centered” age of the individual—that is, the difference between the age of the individual
 #' on release and the average age of all inmates in the study
@@ -97,6 +97,14 @@
 #' analysis of covariance techniques. However, survival analysis methods can also be used to study the
 #' life durations of male and female fruit flies. See pages 325 and 326 for brief descriptions of the variables.
 #'
+#'
+#' Partners: number of companions (0, 1, or 8)
+#' Type: type of companion (0 = newly pregnant female, 1 = virgin female, 9 = not applicable (when                                                                                        Partners = 0))
+#' Longevity: lifespan, in days (This is the time-to-event variable.)
+#' Thorax: length of thorax in mm
+#' Sleep: percentage of each day spent sleeping
+#' Censor: censoring status (Note that this variable takes only value 1, since the data are all complete. A
+#'                           censoring status variable is necessary for software implementation.)
 #' @docType data
 #' @keywords datasets
 #' @name Fruitfly
@@ -116,6 +124,16 @@
 #' the file Veteran have been investigated in Kalbfleisch and Prentice. See page 326 for brief descriptions of
 #' the variables.
 #'
+#'
+#' trt: 1 = standard chemotherapy, 2 = test chemotherapy
+#' celltype: 1 = squamous, 2 = smallcell, 3 = adeno, 4 = large
+#' time: survival time in days
+#' status: censoring status (1 = complete, 0 = censored)
+#' karno: Karnofsky performance scale index score (100 = good) (This score is used to quantify cancer patients’ functional impairment. The Karnofsky performance score is measured on a 0–100 scale
+#' in increments of 10, with 0 indicating that the subject is dead and 100 indicating that the subject shows no signs of the disease.)
+#' diagtime: months from diagnosis to randomization
+#' age: in years
+#' prior: prior therapy (0 = no, 1 = yes)
 #' @docType data
 #' @keywords datasets
 #' @name Veteran

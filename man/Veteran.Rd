@@ -20,4 +20,15 @@ chemotherapy treatment. Several additional variables were also measured on the s
 the file Veteran have been investigated in Kalbfleisch and Prentice. See page 326 for brief descriptions of
 the variables.
 }
+\details{
+trt: 1 = standard chemotherapy, 2 = test chemotherapy
+celltype: 1 = squamous, 2 = smallcell, 3 = adeno, 4 = large
+time: survival time in days
+status: censoring status (1 = complete, 0 = censored)
+karno: Karnofsky performance scale index score (100 = good) (This score is used to quantify cancer patients’ functional impairment. The Karnofsky performance score is measured on a 0–100 scale
+in increments of 10, with 0 indicating that the subject is dead and 100 indicating that the subject shows no signs of the disease.)
+diagtime: months from diagnosis to randomization
+age: in years
+prior: prior therapy (0 = no, 1 = yes)
+}
 \keyword{datasets}

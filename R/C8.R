@@ -18,7 +18,11 @@
 
 #' Chapter 8 CancerCluster
 #'
-#' Sample Cancer Data
+#' The data appear in Table 8.1. The four age groups are the groups reported in the CTR. Day and
+#' colleagues provided the Randolph data by age group after carefully checking each reported case through inperson
+#' interviews (they found only 49 valid cases of adult cancers, rather than the 67 cases originally reported
+#' by the neighborhood). Here, we extract the number of cases for each age group for the years 1980–1984 for
+#'Connecticut using the reported rates and population data.
 #'
 #'
 #'
@@ -30,25 +34,25 @@
 "CancerCluster"
 
 
-#' Chapter 8 Gala
+#' Chapter 8 gala
 #'
 #' Data on plant species on the Galápagos islands have been collected more than once. The most recent
 #' extensive data were reported by Johnson and Raven. We will consider two response variables: island total
 #' observed species count and island endemic species count. There are five potential covariates that we expect
-#' to be related to species count: island area (km2
-#' ) and elevation (meters), the distance (km) from the island to
-#' its nearest neighbor (adjacent island) and to the largest island (km2
-#' ) in the archipelago (Santa Cruz), and the
+#' to be related to species count: island area (km2)
+#'and elevation (meters), the distance (km) from the island to
+#' its nearest neighbor (adjacent island) and to the largest island (km2)
+#' in the archipelago (Santa Cruz), and the
 #' area of the adjacent island (km2).
 #'
 #'
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Gala
-#' @usage Gala
+#' @name gala
+#' @usage gala
 #' @format A data frame with 30 rows and eight columns
-"Gala"
+"gala"
 
 
 #' Chapter 8 Grandslam
@@ -69,7 +73,7 @@
 "Grandslam"
 
 
-#' Chapter 8 Hurricane
+#' Chapter 8 hurricanes
 #'
 #' With all the discussion about climate change in the past couple of decades, it is no surprise that the
 #' occurrence of several intense hurricanes over the past several years has garnered some attention. You
@@ -85,10 +89,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Hurricane
-#' @usage Hurricane
+#' @name hurricanes
+#' @usage hurricanes
 #' @format A data frame with 59 rows and six columns
-"Hurricane"
+"hurricanes"
 
 
 #' Chapter 8 SkinCancer
@@ -103,10 +107,11 @@
 #' @name SkinCancer
 #' @usage SkinCancer
 #' @format A data frame with 16 rows and five columns
+#' @source D. Hand et al., A Handbook of Small Data Sets (London: Chapman and Hall, 1994).
 "SkinCancer"
 
 
-#' Chapter 8 SkinCancer_Alternative
+#' Chapter 8 SkinCancerAlternative
 #'
 #' Alternative presentation of the SkinCancer Data
 #'
@@ -114,10 +119,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name SkinCancer_Alternative
-#' @usage SkinCancer_Alternative
+#' @name SkinCancerAlternative
+#' @usage SkinCancerAlternative
 #' @format A data frame with 16 rows and nine columns
-"SkinCancer_Alternative"
+"SkinCancerAlternative"
 
 
 #' Chapter 8 Smoking

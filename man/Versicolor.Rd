@@ -7,13 +7,17 @@
 \format{
 A data frame with 50 rows and four columns
 }
+\source{
+R. A. Fisher, “The Use of Multiple Measurements in Taxonomic Problems,” Annals of Eugenics, 7 (1936): 179–188
+}
 \usage{
 Versicolor
 }
 \description{
+Ronald Fisher published an analysis on the sizes of iris sepals and petals.
+The data, collected over several years by Edgar Anderson, were used to show that these measurements could be employed to differentiate between species of irises.
 The data set Versicolor contains four measurements (sepal length,
-sepal width, petal length, and petal width) on 50 versicolor irises.
-The petals are colorful and flashy,
+sepal width, petal length, and petal width) on 50 versicolor irises. The petals are colorful and flashy,
 while the sepal (under the petals) tends to be less colorful.
 }
 \keyword{datasets}

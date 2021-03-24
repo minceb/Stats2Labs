@@ -1,9 +1,9 @@
 ## code to prepare `datasets` dataset goes here
 
-library(readr)
-library(readxl)
-library(tidyr)
-library(dplyr)
+# library(readr)
+# library(readxl)
+# library(tidyr)
+# library(dplyr)
 #for (i in 1:length(temp)) assign(substr(temp[i], 1, nchar(temp[i])-4), readr::read_csv(temp[i]))
 
 #Chapter 1
@@ -152,7 +152,19 @@ VariableDescriptionsC7 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C7 Variable 
 usethis::use_data(Shuttle, Cancer2, Table7.3, Cancercells, Donner, Convict, SIRDS, Tattoos, Birdkeeping, Burns,
                   Oscars, Oscars2, VariableDescriptionsC7, overwrite = T)
 
-
+# Chapter 8
+APExams <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 APExams.csv")
+CancerCluster <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 CancerCluster.csv")
+gala <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 Gala.csv")
+Grandslam <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 Grandslam.csv")
+hurricanes <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 Hurricanes.csv")
+SkinCancer <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 SkinCancer.csv")
+SkinCancerAlternative <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 SkinCancer-alternative.csv")
+Smoking <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 Smoking.csv")
+Table8.1 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 Table8.1.csv")
+#VariableDescriptionsC8 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C8 Variable Descriptions.csv")
+usethis::use_data(APExams, CancerCluster, gala, Grandslam, hurricanes, SkinCancer, SkinCancerAlternative,
+                  Smoking, Table8., overwrite = T)
 
 
 
@@ -169,6 +181,23 @@ Veteran <- read.csv("C:/Users/Bowen/Desktop/DataSets/C9 Veteran.csv")
 VariableDescriptionsC9 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C9 Variable Descriptions.csv")
 usethis::use_data(MeltingChipsJS, Table9.2, Firstdrink, Graduate, Rearrest, Fruitfly, Veteran, Hornhonk,
                   VariableDescriptionsC9, overwrite = T)
+
+# Chapter 10
+
+CarsC10 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 Cars.csv")
+Corn <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 Corn.csv")
+Crime <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 Crime.csv")
+Grades <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 Grades.csv")
+Intelligence <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 Intelligence.csv")
+Test <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 Test.csv")
+Turtles <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 turtles.csv")
+Versicolor <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 Versicolor.csv")
+Stocks2006 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 2006Stocks.csv")
+Stock2_2006 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 2006Stock2.csv")
+Stock2010 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 2010Stock.csv")
+VariableDescriptionsC10 <- read.csv("C:/Users/Bowen/Desktop/DataSets/C10 Variable Descriptions.csv")
+usethis::use_data(CarsC10, Corn, Crime, Grades, Intelligence, Test, Turtles, Versicolor, Stocks2006, Stock2_2006, Stock2010,
+                  VariableDescriptionsC10, overwrite = T)
 # Chapter 11
 
 MMs <- read.csv("C:/Users/Bowen/Desktop/DataSets/C11 MMs.csv")

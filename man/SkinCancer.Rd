@@ -7,6 +7,9 @@
 \format{
 A data frame with 16 rows and five columns
 }
+\source{
+D. Hand et al., A Handbook of Small Data Sets (London: Chapman and Hall, 1994).
+}
 \usage{
 SkinCancer
 }

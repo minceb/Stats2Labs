@@ -11,6 +11,10 @@ A data frame with eight rows and six columns
 CancerCluster
 }
 \description{
-Sample Cancer Data
+The data appear in Table 8.1. The four age groups are the groups reported in the CTR. Day and
+colleagues provided the Randolph data by age group after carefully checking each reported case through inperson
+interviews (they found only 49 valid cases of adult cancers, rather than the 67 cases originally reported
+by the neighborhood). Here, we extract the number of cases for each age group for the years 1980–1984 for
+Connecticut using the reported rates and population data.
 }
 \keyword{datasets}

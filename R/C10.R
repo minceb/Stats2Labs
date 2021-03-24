@@ -14,7 +14,7 @@
 "CarsC10"
 
 
-#' Chapter 10 CrimeC10
+#' Chapter 10 Crime
 #'
 #' The FBI’s Uniform Crime Reporting (UCR) program gathers crime data from more than 17,000 law
 #' enforcement agencies throughout the United States. The Crime data set contains crime counts for
@@ -24,13 +24,13 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name CrimeC10
-#' @usage CrimeC10
+#' @name Crime
+#' @usage Crime
 #' @format A data frame with 47 rows and eight columns
-"CrimeC10"
+"Crime"
 
 
-#' Chapter 10 GradesC10
+#' Chapter 10 Grades
 #'
 #' The data set Grades contains total scores for students’ homework, labs, quizzes, projects, and exams. This course had
 #' two 1-hour exams and a 3-hour final exam. In addition to a final project worth 20% of the final grade, there
@@ -44,10 +44,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name GradesC10
-#' @usage GradesC10
+#' @name Grades
+#' @usage Grades
 #' @format A data frame with 32 rows and 14 columns
-"GradesC10"
+"Grades"
 
 
 #' Chapter 10 Grades_details
@@ -81,7 +81,7 @@
 "Intelligence"
 
 
-#' Chapter 10 Stock_2010
+#' Chapter 10 Stock2010
 #'
 #' The data set 2010Stock contains 2010 daily closing stock market values for several well-known
 #' companies.
@@ -91,11 +91,10 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Stock_2010
-#' @usage Stock_2010
+#' @name Stock2010
+#' @usage Stock2010
 #' @format A data frame with 252 rows and 26 columns
-"Stock_2010"
-
+"Stock2010"
 
 #' Chapter 10 Stock2_2006
 #'
@@ -112,22 +111,22 @@
 "Stock2_2006"
 
 
-#' Chapter 10 Stocks_2006
+#' Chapter 10 Stocks2006
 #'
-#' The stock market data set also contains dates for each business day in 2006.
+#' The stock market data contains dates for each business day in 2006 for the three major indexes.
 #'
 #'
 #'
 #'
 #' @docType data
 #' @keywords datasets
-#' @name Stocks_2006
-#' @usage Stocks_2006
+#' @name Stocks2006
+#' @usage Stocks2006
 #' @format A data frame with 251 rows and four columns
-"Stocks_2006"
+"Stocks2006"
 
 
-#' Chapter 10 TestC10
+#' Chapter 10 Test
 #'
 #' The file Test contains several standardized variables.
 #'
@@ -136,13 +135,13 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name TestC10
-#' @usage TestC10
+#' @name Test
+#' @usage Test
 #' @format A data frame with 113 rows and four columns
-"TestC10"
+"Test"
 
 
-#' Chapter 10 turtles
+#' Chapter 10 Turtles
 #'
 #'  Jolicoeur and Mosimann measured the length, width, and height of 48 painted
 #'  turtle shells and conducted PCA on the data. Their work has been influential
@@ -154,10 +153,11 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name turtles
-#' @usage turtles
+#' @name Turtles
+#' @usage Turtles
 #' @format A data frame with 48 rows and four columns
-"turtles"
+#' @source P. Jolicoeur and J. E. Mosimann, “Size and Shape Variation in the Painted Turtle: A Principal Component Analysis,” Growth, 24 (1960): 339–354.
+"Turtles"
 
 
 #' Chapter 10 VariableDescriptionsC10
@@ -176,10 +176,11 @@
 
 #' Chapter 10 Versicolor
 #'
-#'  The data set Versicolor contains four measurements (sepal length,
-#'  sepal width, petal length, and petal width) on 50 versicolor irises.
-#'  The petals are colorful and flashy,
-#'  while the sepal (under the petals) tends to be less colorful.
+#' Ronald Fisher published an analysis on the sizes of iris sepals and petals.
+#' The data, collected over several years by Edgar Anderson, were used to show that these measurements could be employed to differentiate between species of irises.
+#' The data set Versicolor contains four measurements (sepal length,
+#' sepal width, petal length, and petal width) on 50 versicolor irises. The petals are colorful and flashy,
+#' while the sepal (under the petals) tends to be less colorful.
 #'
 #'
 #'
@@ -188,6 +189,7 @@
 #' @name Versicolor
 #' @usage Versicolor
 #' @format A data frame with 50 rows and four columns
+#' @source R. A. Fisher, “The Use of Multiple Measurements in Taxonomic Problems,” Annals of Eugenics, 7 (1936): 179–188
 "Versicolor"
 
 
